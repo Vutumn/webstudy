@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-language" content="zh-cn">
+    <meta name="keywords" content="音乐,QQ音乐,在线听歌,音乐下载,音乐播放器,音乐网站,MV,巅峰榜,音乐排行榜,翻译歌曲,热门歌曲,经典老歌,无损音乐,无损曲库">
+    <meta name="description" content="QQ音乐是腾讯公司推出的一款网络音乐服务产品，海量音乐在线试听、新歌热歌在线首发、歌词翻译、手机铃声下载、高品质无损音乐试听、海量无损曲库、正版音乐下载、空间背景音乐设置、MV观看等，是互联网音乐播放和下载的优选。">
+    <meta name="applicable-device" content="pc">
+    <link rel="stylesheet" type="text/css" href="common.css"/>
+    <title>qq音乐</title>
+
+    <script type="text/javascript">
+        var _speedMark = new data();
+    </script>
+
+   <script type="text/javascript">spd.marker(31);</script>
+
+</head>
+<body>
+<!-- header-->
+
+<div class="wrapper">
+    <div class="header">
+        <div class="header_left fl">
+            <a href="baidu.com">qqyinyue</a>
+        </div>
+        <div class="header_nav" role="navigation">
+            <ul>
+                <li class="header_nav_item"><a href="baidu.com" class="header_nav_link header_nav_link-current" title="音乐馆">音乐馆</a></li>
+                <li class="header_nav_item"><a href="baidu.com" class="header_nav_link header_nav_link-current" title="我的音乐">我的音乐</a></li>
+                <li class="header_nav_item"><a href="baidu.com" class="header_nav_link header_nav_link-current" title="音乐号">音乐号</a></li>
+                <li class="header_nav_item"><a href="baidu.com" class="header_nav_link header_nav_link-current" title="VIP">vip</a></li>
+            </ul>
+        </div>
+
+        <div class="header_searchright fl">
+            <div class="search_input">
+               <input class="search_input__input" aria_label="请输入搜索内容" type="text" placeholder="">
+               <button class="search_input_btn">
+                  <i class="icon_search_sprite"></i>
+                  <span class="icon_txt">搜索</span>
+               </button>
+            </div>
+        </div>
+
+        <div class="header_opt fl">
+            <a class="header_opt_login js_logined" href="www.baidu.com" onclick="loginBtnClick()" style="display: none"><img src="xxx" class="top_login__cover" alt></a>
+            <a class="header_opt_login js_login" data-stat="y_new_top.login" href="javascript:;">登录</a>
+            <a class="mod_btn_green top_login__btn_vip js_openvip" data-aid="music.pc.20316.newyqqtop" data-stat="music.20316.btnclick.pc" href="javascript:;">开通绿钻豪华版</a>
+            <a class="mod_btn top_login__btn_vip js_openmusic" data-aid="music.pc.20317.newyqqtop" data-stat="music.20317.btnclick.pc" href="javascript:;">开通付费包</a>
+        </div>
+
+    </div>
+
+    <div class="header_subnav">
+        <ul>
+            <li class="header_subnav_item"><a href="#" class="header_subnav_link header_subnav_link-current">首页</a></li>
+            <li class="header_subnav_item"><a href="#" class="header_subnav_link">歌手</a></li>
+            <li class="header_subnav_item"><a href="#" class="header_subnav_link">专辑</a></li>
+            <li class="header_subnav_item"><a href="#" class="header_subnav_link">排行榜</a></li>
+            <li class="header_subnav_item"><a href="#" class="header_subnav_link">分类歌单</a></li>
+            <li class="header_subnav_item"><a href="#" class="header_subnav_link">电台</a></li>
+            <li class="header_subnav_item"><a href="#" class="header_subnav_link">mv</a></li>
+            <li class="header_subnav_item"><a href="#" class="header_subnav_link">数字专辑</a></li>
+        </ul>
+    </div>>
+
+</div>
+
+<!-- 歌单推荐-->
+<div class="mod_index mod_index--hot">
+    <div class="section_inner">
+        <!-- title -->
+
+        <div class="index_hd">
+            <h2 class="index_tit">歌单推荐</h2>
+        </div>
+
+        <!-- tab -->
+        <div class="mod_index_tab" data-stat="y_new.index.playlist">
+            <a href="#" class="index_tab__item js_tag" data-type="playlist" data-index="1">为你推荐</a>
+            <a href="#" class="index_tab__item js_tag" data-type="playlist" data-index="2">劲爆dj</a>
+            <a href="#" class="index_tab__item js_tag" data-type="playlist" data-index="3">情歌</a>
+            <a href="#" class="index_tab__item js_tag" data-type="playlist" data-index="4">网络歌曲</a>
+            <a href="#" class="index_tab__item js_tag" data-type="playlist" data-index="5">经典</a>
+            <a href="#" class="index_tab__item js_tag" data-type="playlist" data-index="6">KTV热歌</a>
+        </div>
+
+        <!-- 专辑列表 -->
+        <div class="mod_playlist mod_slide">
+            <ui class="playlist_list">
+                <li class="playlist_item">
+                    <!--<a href=""><img src="#" class="playlist_cover" alt="歌曲推荐封面"></a>-->
+                    <!--<a href="" class="playlist_title">这是个标题</a>-->
+                    <!--<a href="" class="playlist_count"> 播放量123f2</a>-->
+                <!--</li>-->
+                <li class="playlist_item">
+                    <!--<a href="" class="playlist_cover"><img src="#" alt="歌曲推荐封面1" class="playlist_cover_img"></a>-->
+                    <!--<a href="" class="playlist_title">这是个标题</a>-->
+                    <!--<a href="" class="playlist_count"> 播放量1232</a>-->
+                </li>
+                <li class="playlist_item">
+                    <!--<a href="" class="playlist_cover"><img src="#" alt="歌曲推荐封面2" class="playlist_cover_img"></a>-->
+                    <!--<a href="" class="playlist_title">这是个标题2</a>-->
+                    <!--<a href="" class="playlist_count">播放量000</a>-->
+                </li>
+                <li class="playlist_item">
+                    <!--<a href="" class="playlist_cover"><img src="#" alt="歌曲推荐封面3" class="playlist_cover_img"></a>-->
+                    <!--<a href="" class="playlist_title">这是个标题3</a>-->
+                    <!--<a href="" class="playlist_count">播放量6666</a>-->
+                </li>
+
+
+            </ui>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- 新歌首发 -->
+<div class="mod_index mod_index--song" id="new_song_box">
+    <div class="section_inner">
+        <div class="index_hd">
+            <h2 class="index_tit">新歌首发</h2>
+        </div>
+    </div>
+
+    <div class="mod_index_tab" data-stat="y_new.index.new.song">
+        <a href="" class="index_tab__item js_tag" data-index="0" data-type="new_song" data-id="0">为你推荐</a>
+        <a href="" class="index_tab__item js_tag" data-index="1" data-type="new_song" data_id="1">内地</a>
+        <a href="" class="index_tab__item js_tag" data-index="2" data-type="new_song" data_id="2">港台</a>
+        <a href="" class="index_tab__item js_tag" data-index="3" data-type="new_song" data-id="3">欧美</a>
+        <a href="" class="index_tab__item js_tag" data-index="4" data-type="new_song" data-id="4">日本</a>
+        <a href="" class="index_tab__item js_tag" data—index="5" data-type="new_song" data-id="5">韩国</a>
+    </div>
+
+    <div class="mod_songlist mod_slide">
+        <div class="slide_list js_list" >
+            <ul class="songlist_list">
+                <li class="songlist_item" mid="3232322" ix="0">
+                    <div class="songlist__item_box" style="visibility: visible">
+                        <a href="#" title="title1" data-albummid="*****" data-albumid="****" class="album_name songlist__link mod_cover">
+                            <img class="songlist__pic" src="#" alt="专辑封面图片">
+                        </a>
+
+                        <div class="songlist__cont">
+                            <h3 class="songlist__songname">
+                                <a href="#">xx</a>
+                            </h3>
+                            <p class="songlist__author">
+                                <a href="#" class="c_tx_thin singer_name">xx</a>
+                            </p>
+                        </div>
+
+                        <div class="songlist__time c_tx_thin">09:00</div>
+
+                    </div>
+                </li>
+                <li class="songlist_item" mid="4441231" ix="1">
+                    <div class="songlist__item_box" style="visibility: visible">
+                        <a href="#" title="title1" data-albummid="*****" data-albumid="****" class="album_name songlist__link mod_cover">
+                            <img class="songlist__pic" src="#" alt="专辑封面图片">
+                        </a>
+
+                        <div class="songlist__cont">
+                            <h3 class="songlist__songname">
+                                <a href="#">xx</a>
+                            </h3>
+                            <p class="songlist__author">
+                                <a href="#" class="c_tx_thin singer_name">xx</a>
+                            </p>
+                        </div>
+
+                        <div class="songlist__time c_tx_thin">09:00</div>
+
+                    </div>
+                </li>
+                <li class="songlist_item" mid="1123213" ix="2">
+                    <div class="songlist__item_box" style="visibility: visible">
+                        <a href="#" title="title1" data-albummid="*****" data-albumid="****" class="album_name songlist__link mod_cover">
+                            <img class="songlist__pic" src="#" alt="专辑封面图片">
+                        </a>
+
+                        <div class="songlist__cont">
+                            <h3 class="songlist__songname">
+                                <a href="#">xx</a>
+                            </h3>
+                            <p class="songlist__author">
+                                <a href="#" class="c_tx_thin singer_name">xx</a>
+                            </p>
+                        </div>
+
+                        <div class="songlist__time c_tx_thin">09:00</div>
+
+                    </div>
+                </li>
+
+                <li class="songlist_item" mid="5555532" ix="3">
+                    <div class="songlist__item_box" style="visibility: visible">
+                        <a href="#" title="title1" data-albummid="*****" data-albumid="****" class="album_name songlist__link mod_cover">
+                            <img class="songlist__pic" src="#" alt="专辑封面图片">
+                        </a>
+
+                        <div class="songlist__cont">
+                            <h3 class="songlist__songname">
+                                <a href="#">xx</a>
+                            </h3>
+                            <p class="songlist__author">
+                                <a href="#" class="c_tx_thin singer_name">xx</a>
+                            </p>
+                        </div>
+
+                        <div class="songlist__time c_tx_thin">09:00</div>
+
+                    </div>
+                </li>
+                <li class="songlist_item" mid="1111222" ix="4">
+                    <div class="songlist__item_box" style="visibility: visible">
+                        <a href="#" title="title1" data-albummid="*****" data-albumid="****" class="album_name songlist__link mod_cover">
+                            <img class="songlist__pic" src="#" alt="专辑封面图片">
+                        </a>
+
+                        <div class="songlist__cont">
+                            <h3 class="songlist__songname">
+                                <a href="#">xx</a>
+                            </h3>
+                            <p class="songlist__author">
+                                <a href="#" class="c_tx_thin singer_name">xx</a>
+                            </p>
+                        </div>
+
+                        <div class="songlist__time c_tx_thin">09:00</div>
+
+                    </div>
+                </li>
+                <li class="songlist_item" mid="9004444" ix="5">
+                    <div class="songlist__item_box" style="visibility: visible">
+                        <a href="#" title="title1" data-albummid="*****" data-albumid="****" class="album_name songlist__link mod_cover">
+                            <img class="songlist__pic" src="#" alt="专辑封面图片">
+                        </a>
+
+                        <div class="songlist__cont">
+                            <h3 class="songlist__songname">
+                                <a href="#">xx</a>
+                            </h3>
+                            <p class="songlist__author">
+                                <a href="#" class="c_tx_thin singer_name">xx</a>
+                            </p>
+                        </div>
+
+                        <div class="songlist__time c_tx_thin">09:00</div>
+
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- footer -->
+<div class="footer" role="footer">
+    <div class="section_inner">
+        <div class="footer_info">
+            <div class="footer_download">
+                <h3 class="footer_title">下载qq音乐客户端</h3>
+                <ul class="footer_download_list">
+                    <li class="footer_download_list__item">
+                        <a href="#" class="mod_imgtext"><img class="icon_qm_pc" src="#" alt="logo">dsfdsffs</a>
+                    </li>
+                    <li class="footer_download_list__item">
+                        <a href="#" class="mod_imgtext"><img class="icon_qm_mac" src="#" alt="logo">dsfdsffs</a>
+
+                    </li>
+                    <li class="footer_download_list__item">
+                        <a href="#" class="mod_imgtext"><img class="icon_qm_android" src="#" alt="logo">dsfdsffs</a>
+
+                    </li>
+                    <li class="footer_download_list__item">
+                        <a href="#" class="mod_imgtext"><img class="icon_qm_iphone" src="#" alt="logo">dsfdsffs</a>
+
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer_product">
+                <h3 class="footer_title">特色产品</h3>
+                <ul class="footer_product_list">
+                    <li class="footer_product_list__item footer_product_list__item--pic">
+                        <a href="#"><i class="icon_qm_kg"></i>全民k歌</a>
+                    </li>
+                    <li class="footer_product_list__item footer_product_list__item--pic">
+                        <a href="#"><i class="icon_qm_ss"></i>super sound</a>
+                    </li>
+                    <li class="footer_product_list__item footer_product_list__item--pic">
+                        <a href="#"><i class="icon_qm_qp"></i>qplay</a>
+                    </li>
+                    <li class="footer_product_list__item"><a href="#">车载互联</a></li>
+                    <li class="footer_product_list__item"><a href="#">qq演出</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer_link">
+                <h3 class="footer_title">合作链接</h3>
+                <ul class="footer_link_list">
+                    <li class="footer_link_list__item"><a href="#">cjem</a></li>
+                    <li class="footer_link_list__item"><a href="#">腾讯视频</a></li>
+                    <li class="footer_link_list__item"><a href="#">手机qq空间</a></li>
+                    <li class="footer_link_list__item"><a href="#">最新版qq</a></li>
+                    <li class="footer_link_list__item"><a href="#">腾讯社交广告fs</a></li>
+                    <li class="footer_link_list__item"><a href="#">电脑管家</a></li>
+                    <li class="footer_link_list__item"><a href="#">qq浏览器</a></li>
+                    <li class="footer_link_list__item"><a href="#">腾讯微云</a></li>
+                    <li class="footer_link_list__item"><a href="#">腾讯云</a></li>
+                    <li class="footer_link_list__item"><a href="#">企鹅fm</a></li>
+                    <li class="footer_link_list__item"><a href="#">智能电视网</a></li>
+                    <li class="footer_link_list__item"><a href="#">当贝市场</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_platform">
+
+            </div>
+        </div>
+
+        <div class="footer_copyright">
+
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

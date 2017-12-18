@@ -1,0 +1,91 @@
+body,h1,h2,h3,h4 {
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    display: block;
+    font-weight: bold;
+}
+
+ul,ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.head {
+    position: relative;
+}
+
+.head_nav {
+    position: absolute;
+    z-index: 15;
+}
+
+.head_nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 1000px;
+    background-color: black;
+}
+
+.head_nav_inner {
+    height: 73px;
+    width: 990px;
+}
+
+.head_nav_inner {
+    position: relative;
+    margin: 0 auto;
+    z-index: 99;
+    background-color: red;
+}
+
+<!--清除浮动 -->
+.cf:after .cf:before {
+    content: '';
+    display: table;
+}
+
+/*@media (max-width: 1269px) {*/
+    /*.head_nav_inner {*/
+        /*width: 990px;*/
+    /*}*/
+/*}*/
+
+/*@media (max-width: 1549px) {*/
+    /*.head .head_nav_inner {*/
+        /*width: 1200px;*/
+    /*}*/
+/*}*/
+
+/*@media  (max-width: 1789px){*/
+    /*.head .head_nav_inner {*/
+        /*width: 1500px;*/
+    /*}*/
+/*}*/
+
+
