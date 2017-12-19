@@ -1,0 +1,9 @@
+/* system css */
+ol {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
