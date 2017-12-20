@@ -107,6 +107,32 @@
            background-color: yellow;
         }
 
+        ul.nav {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: 8em;
+            background-color: #8bd400;
+            border: 1px solid #486b02;
+        }
+
+        ul.nav a {
+            display: block;
+            color: #2b3f00;
+            text-decoration: none;
+            border-top: 1px solid #e4ffd3;;
+            border-bottom: 1px solid #486b02;
+            padding: 0.3em 1em;
+        }
+
+        ul.nav .last a {
+            border-bottom: 0;
+        }
+
+        ul.nav a:hover, ul.nav a:focus, ul.nav .selected a {
+            color: #e4ffd3;
+            background-color: #6da203;
+        }
 
     </style>
 </head>
@@ -128,10 +154,18 @@
         <!--<div id="content1"></div>-->
     <!--</div>-->
 
-    <div class="test">
-        <div class="test1"></div>
-        <div class="test2"></div>
-    </div>
+    <!--<div class="test">-->
+        <!--<div class="test1"></div>-->
+        <!--<div class="test2"></div>-->
+    <!--</div>-->
+
+    <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">our services</a></li>
+        <li><a href="#">our work</a></li>
+        <li class="last"><a href="#">news</a></li>
+    </ul>
 
 </body>
 
