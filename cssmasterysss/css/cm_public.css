@@ -325,3 +325,50 @@ input[type="text"], textarea {
     border-bottom: 1px solid #ccc;
     border-right: 1px solid #ccc;
 }
+
+#monthofbirthlabel, #yearofbirthlabel {
+    width: 0;
+    text-indent: -1000em;
+}
+
+input#dateofbirth {
+    width: 3em;
+    margin-right: 0.5em;
+}
+
+select#monthofbirth {
+    width: 10em;
+    margin-right: 0.5em;
+}
+
+input#yearofbirth {
+    width: 5em;
+}
+
+#favoritecolor {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+#favoritecolor h2 {
+    float: left;
+    width: 10em;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+#favoritecolor .col {
+    width: 8em;
+    float: left;
+    /*clear: none;*/
+}
+
+#favoritecolor label {
+    float: none;
+}
+
+label {
+    display: block;
+}

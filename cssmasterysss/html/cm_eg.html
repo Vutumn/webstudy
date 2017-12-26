@@ -129,39 +129,70 @@
 <!--</table>-->
 
 <!-- 12.19 7.2有用的表单元素 -->
-<fieldset>
-    <legend>your contact details</legend>
-    <div>
-        <label for="author">name:<em class="required">(required)</em></label>
-        <input name="author" id="author" type="text"/>
-    </div>
-    <div>
-        <label for="email">email address:</label>
-        <input name="email" id="email" type="text"/>
-    </div>
-    <div>
-        <label for="url">web address:</label>
-        <input name="url" id="url" type="text"/>
-    </div>
-</fieldset>
+<!--<fieldset>-->
+    <!--<legend>your contact details</legend>-->
+    <!--<div>-->
+        <!--<label for="author">name:<em class="required">(required)</em></label>-->
+        <!--<input name="author" id="author" type="text"/>-->
+    <!--</div>-->
+    <!--<div>-->
+        <!--<label for="email">email address:</label>-->
+        <!--<input name="email" id="email" type="text"/>-->
+    <!--</div>-->
+    <!--<div>-->
+        <!--<label for="url">web address:</label>-->
+        <!--<input name="url" id="url" type="text"/>-->
+    <!--</div>-->
+<!--</fieldset>-->
 
-<fieldset>
-    <legend>comments</legend>
-    <div>
-        <label for="text">message:</label>
-        <textarea name="text" id="text"></textarea>
-    </div>
-</fieldset>
+<!--<fieldset>-->
+    <!--<legend>comments</legend>-->
+    <!--<div>-->
+        <!--<label for="text">message:</label>-->
+        <!--<textarea name="text" id="text"></textarea>-->
+    <!--</div>-->
+<!--</fieldset>-->
 
-<fieldset>
-    <legend>remember me</legend>
-    <div>
-        <label for="remember-yes"><input id="remember-yes" class="radio" name="remember" type="radio" value="yes" checked="checked"/>yes</label>
-    </div>
-    <div>
-        <label for="remember-no"><input id="remember-no" class="radio" name="remember" type="radio" value="no" checked="checked">no</label>
-    </div>
-</fieldset>
+<!--<fieldset>-->
+    <!--<legend>remember me</legend>-->
+    <!--<div>-->
+        <!--<label for="remember-yes"><input id="remember-yes" class="radio" name="remember" type="radio" value="yes" checked="checked"/>yes</label>-->
+    <!--</div>-->
+    <!--<div>-->
+        <!--<label for="remember-no"><input id="remember-no" class="radio" name="remember" type="radio" value="no" checked="checked">no</label>-->
+    <!--</div>-->
+<!--</fieldset>-->
+
+<!-- 12.20 7.3 可访问的数据输入元素 -->
+<div>
+    <!--<label for="dateofbirth">date of birth:</label>-->
+        <!--<input id="dateofbirth" name="dateofbirth" type="text" />-->
+
+    <!--<label id="monthofbirthlabel" for="monthofbirth">month of birth:</label>-->
+        <!--<select name="monthofbirth" id="monthofbirth">-->
+             <!--<option value="1">january</option>-->
+             <!--<option value="2">february</option>-->
+             <!--<option value="3">march</option>-->
+         <!--</select>-->
+
+    <!--<label for="yearofbirth" id="yearofbirthlabel">year of birth:</label>-->
+        <!--<input name="yearofbirth" id="yearofbirth" type="text"/>-->
+
+    <fieldset id="favoritecolor">
+        <h2>favorite color</h2>
+
+        <div class="col">
+            <label for="orange"><input class="checkbox" id="orange" name="orange" value="orange" type="checkbox"/>orange</label>
+            <label for="apple"><input  class="checkbox" id="apple" name="apple" value="apple" type="checkbox"/>apple</label>
+        </div>
+        <div class="col">
+            <label for="red"><input class="checkbox" id="red" name="red" value="red" type="checkbox"/>red</label>
+            <label for="yellow"><input class="checkbox" id="yellow" name="yellow" value="yellow" type="checkbox"/>yellow</label>
+        </div>
+    </fieldset>
+
+
+</div>
 
 </body>
 </html>

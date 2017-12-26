@@ -15,13 +15,149 @@
     float: left;
 }
 
+.mod_search {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.mod_search {
+    position: absolute;
+    left: 50%;
+    top: 12px;
+    width: 550px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 275px;
+    box-shadow: 0 2px 4px 0 rgba(90,90,90,.08);
+}
+
+.mod_search .search_label {
+    position: absolute;;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.mod_search .search_keywords {
+    position: relative;
+    height: 40px;
+    margin: 0 185px 0 20px;
+}
+
+.search_input {
+    color: #eee;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    line-height: 40px;
+    border: 0 none;
+    font-size: 16px;
+    background: 0 0;
+}
+
+.mod_search .search_btn {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 106px;
+    height: 40px;
+    background: #ff6428;
+    background: -webkit-linear-gradient(left,#ff850b 0,#ff5945 100%);
+    background: linear-gradient(to right,#ff850b 0,#ff5945 100%);
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+}
+
+
+.mod_search .search_btn .btn_inner {
+    padding-right: 2px;
+}
+
 .mod_quick {
     height: 73px;
 }
 
 .mod_quick {
     position:absolute;
+    z-index: 99;
     right: 0;
-    top: 0;
+    top: 14px;
+    background-color: #486b02;
 }
 
+.mod_quick {
+    top: 17px;
+}
+
+.mod_row_box {
+    position: relative;
+    width: 100%;
+    margin-bottom: 33px;
+}
+
+.mod_row_box .mod_bd, .mod_row_box .mod_hd {
+    position: relative;
+    z-index: 2;
+    /*width: 1710px;*/
+    margin: 0 auto;
+}
+
+.mod_title {
+    position: relative;
+    height: 40px;
+    font-size: 0;
+    white-space: nowrap;
+    margin-bottom: 14px;
+    font-family: PingFangSC-Regular,'Microsoft Yahei',sans-serif;
+}
+
+.mod_title .title {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #202020;
+}
+
+.mod_title .title a {
+    cursor: pointer;
+}
+
+.mod_title .title_pic_link {
+    position: relative;
+    display: inline-block;
+    padding-left: 46px;
+    vertical-align: top;
+}
+
+.mod_title .subtitle {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #999;
+}
+
+.mod_title .title_pic {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    background-color: red;
+}
+
+
+@media (max-width: 1269px) {
+    .mod_search {
+        width: 380px;
+        margin-left: -100px;
+    }
+
+    .mod_row_box .mod_bd, .mod_row_box .mod_hd{
+        width: 990px;
+    }
+
+
+}

@@ -1,0 +1,77 @@
+/* system  */
+body {
+    text-align: center;
+    background-color: #d4dde6;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    word-wrap: break-word;
+    text-align: left;
+}
+
+/* class */
+/*.wrapper {*/
+    /*width: 76.8%;*/
+    /*margin: 0 auto;*/
+    /*text-align: left;*/
+    /*min-width: 62em;*/
+/*}*/
+
+/*.header {*/
+    /*background-color: #6d8ab7;*/
+/*}*/
+
+/*<!-- 清除浮动，解决浮动产生的布局问题 -->*/
+/*.content {*/
+    /*overflow: hidden;*/
+/*}*/
+
+/*.content .primary {*/
+    /*float: left;*/
+    /*display: inline;*/
+    /*width: 72.82%;*/
+    /*background-color: #fff;*/
+/*}*/
+
+/*.content .secondary {*/
+    /*float: right;*/
+    /*display: inline;*/
+    /*width: 25%;*/
+    /*background-color: red;*/
+/*}*/
+
+/*.content .primary .primary {*/
+    /*float: right;*/
+    /*width: 59.7%;*/
+    /*display: inline;*/
+/*}*/
+
+/*.content .primary .secondary {*/
+    /*float: left;*/
+    /*width: 34.33%;*/
+    /*padding-right: 2.63%;*/
+    /*display: inline;*/
+/*}*/
+
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.box {
+    display: inline;
+    float: left;
+    width: 250px;
+    margin-left: 20px;
+    margin-bottom: -500px;
+    padding-left: 20px;
+    padding-bottom: 520px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #e4ffd3;
+}
