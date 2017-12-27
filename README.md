@@ -6,10 +6,16 @@
 在开始系统性的学习，买了两本书一本css secret还有一本精通css，css secret不推荐初学者购买，需要一定的基础，精通css推荐购买。js买了两本，犀牛书和红宝书，太厚了，长路慢慢。
 
 ### 12-19
-更新精通css书上的内容和例子
+更新精通css书上的内容和例子，这本书大致讲了些入门需要知道的知识点，感觉虽然全面但是粗略，需要初学者更加深入的去了解。
 
 ### 12-27
 学习多媒体查询的布局方式，@media然后写上你要改变布局的屏幕宽度，min-width，max-width等等，可以随便去找个网站去看看。
 然后学会了更深入的适应chorme审查元素工具，今天才发现能看padding和magin还有width，原来每次点击不同的元素呈现不同的颜色是这么个意思啊。。这个时候你会发现你的写的
 上面很多黄色，原来是没有加reset样式的缘故，所以记得要清除你的元素上多余的padding还有margin。
-第三个是box-sizing布局，与盒模型的区别在于，他的border-box属性的width和height是包含padding和margin的
+第三个是box-sizing布局，与盒模型的区别在于，他的border-box属性的width和height是包含padding和margin的。
+
+今天仿写网站的时候遇到个问题关于清除浮动的问题，
+https://www.cnblogs.com/dolphinX/p/3508869.html
+
+看到个好的网站，关于介绍初学者如何入门的，写得很好。写了这么多天，感觉css这块最重要的还是布局这块。
+http://www.cnblogs.com/dolphinX/p/5181660.html

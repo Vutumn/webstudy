@@ -50,8 +50,7 @@ body {
 .top_header {
     position: relative;
     display: block;
-    height: 100%;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #eee;
 }
 
 .header .leftarea h1 a {
@@ -61,6 +60,15 @@ body {
     font-size: 26px;
     white-space: nowrap;
     text-transform: capitalize;
+}
+
+.top_header:before, .top_header:after {
+    content: '';
+    display: table;
+}
+
+.top_header:after {
+    clear: both;
 }
 
 .list_item {
