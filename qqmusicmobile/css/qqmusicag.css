@@ -1,0 +1,67 @@
+img {
+    border: 0 none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.mod_header {
+    background-color: #fff;
+    position: relative;
+}
+
+.section_inner {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.qqmusic_logo {
+    width: 170px;
+    height: 46px;
+}
+
+.mod_top_title {
+    position: absolute;
+    left: 0;
+    top: 22px;
+}
+
+.mod_top_nav {
+    position: absolute;
+    left: 198px;
+    top: 0;
+}
+
+.top_nav__item {
+    float: left;
+
+}
+
+.top_nav__item a {
+    display: block;
+    height: 90px;
+    line-height: 90px;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.top_nav__link--current, .top_nav__link--current:hover{
+    background-color: #31c27c;
+    color: #fff;
+}
+
+
+@media (max-width: 1240px) {
+    .section_inner {
+        margin: 0 50px;
+        min-width: 900px;
+    }
+}
