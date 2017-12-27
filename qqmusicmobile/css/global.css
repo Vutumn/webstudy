@@ -1,3 +1,9 @@
+* {
+    -webkit-box-sizing:border-box;
+
+    box-sizing: border-box;
+}
+
 body {
     font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif;
     font-size: 14px;
@@ -19,6 +25,11 @@ ul {
     list-style: none;
 }
 
+h1 {
+    margin: 0;
+}
+
+
 body {
 
 }
@@ -33,7 +44,7 @@ body {
 
 .header .container {
     margin: 0 auto;
-    background-color: red;
+    /*background-color: red;*/
 }
 
 .top_header {
@@ -46,6 +57,7 @@ body {
 .header .leftarea h1 a {
     float: left;
     display: block;
+    width: 150px;
     font-size: 26px;
     white-space: nowrap;
     text-transform: capitalize;
@@ -55,10 +67,26 @@ body {
     float: left;
 }
 
+.list_item .list_item__link {
+    display: block;
+    padding: 0 13px;
+    height: 64px;
+    line-height: 64px;
+    color: #757575;
+    font-weight: 500;
+
+}
+
 .header .nav {
     float: left;
     margin: -1px 0 0 20px;
+    padding: 0;
     transition: opacity 0.25s;
+}
+
+.header .leftarea h1>a {
+    height: 64;
+    line-height: 64px;
 }
 
 
@@ -70,6 +98,36 @@ body {
     color: #666;
 }
 
+.header_search {
+    position: relative;
+    float: right!important;
+    right: 0;
+    margin: 15px 15px 0 0;
+    transition: width 0.25s ease;
+    vertical-align: middle;
 
+}
 
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42858;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+}
+
+.header_search .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #999;
+    box-shadow: none;
+}
 

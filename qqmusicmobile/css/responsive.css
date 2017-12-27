@@ -23,6 +23,16 @@
     .header_replace{
         display: block;
     }
+
+    .hidden-xs{
+        display: none!important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .hidden-sm {
+        display: none!important;
+    }
 }
 
 @media (min-width: 992px) {
@@ -46,6 +56,14 @@
 
     .header .leftarea, .header .rightarea{
         float: left;
+    }
+
+    .header_search {
+        width: 265px;
+    }
+
+    .container {
+        width: 1140px;
     }
 
     
