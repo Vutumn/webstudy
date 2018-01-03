@@ -1,3 +1,12 @@
+.col-xs-12 {
+    width: 100%;
+}
+
+.col-xs-12 {
+    float: left;
+}
+
+
 @media (min-width: 768px) {
     .container {
         width: 750px;
@@ -16,6 +25,21 @@
         width: 33.33333%;
     }
 
+    .col-sm-8 {
+        width: 33.66667%;
+    }
+
+    .col-sm-8 {
+        float: left;
+    }
+
+    .col-sm-4 {
+        float: left;
+    }
+
+    .col-sm-4 {
+        width: 33.33333%;
+    }
 }
 
 
@@ -58,6 +82,22 @@
 
     .sub_header .tag_container_outer {
         width: 93%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+    
+    .col-md-9 {
+        float: left;
+    }
+
+    .col-md-3 {
+        float: left;
+    }
+
+    .col-md-3 {
+        width: 25%;
     }
 }
 
