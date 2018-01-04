@@ -17,8 +17,7 @@
 今天仿写网站的时候遇到个问题关于清除浮动的问题，
 https://www.cnblogs.com/dolphinX/p/3508869.html
 
-
-###1.3
+### 1.3
 关于css样式加载顺序熟记规则，今天就遇到问题了，样式加载顺序不是按照class里面的排列顺序，也就是说class=''class1 class2'，并不是由这个顺序决定的，而是由在样式表中的顺序，排在前面的优先级低，这点在今天写响应式布局的时候就不知道，所以出问题了。
 然后今天学到了一个好用的图片的插件font-awesome，用的是webfont伪元素加载。
 
@@ -27,8 +26,7 @@ https://www.cnblogs.com/dolphinX/p/3508869.html
 附上网站
 http://www.qdfuns.com/notes/48074/8b1782c9ce229e82b5dc755c7dabf8c5.html
 
-
-###1.4
+### 1.4
 今天遇到的是rem，rem是相对字体大小做的，做过iOS的会接触到按照屏幕比例计算，也就是说我们有一个基准，按照一个基准做出来的，其它的屏幕按照这个做比例换算即可。而rem远离和这个也类似，他是利用rem这个，然后利用js媒体查询动态改变html font大小，自然rem就变了。
 webkit-box 和 box-sizing border box
 
