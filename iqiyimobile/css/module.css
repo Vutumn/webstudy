@@ -1,0 +1,12 @@
+.m-header-group {
+    height: .84rem;
+}
+
+.m-header-group .m-header {
+    background: rgba(25, 25, 25, 0.97);
+}
+
+.m-header {
+    height: .44rem;
+    position: relative;
+}

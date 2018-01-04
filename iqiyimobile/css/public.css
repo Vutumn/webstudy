@@ -1,0 +1,111 @@
+html {
+    font-size: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: block;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Helvetica Neue",helvetica,arial,sans-serif;
+    font-size: .14rem;
+    line-height: 1;
+    color: #333;
+}
+
+.header-group-innder {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1001;
+}
+
+.m-header .logo-iqiyi {
+    position: absolute;
+    top: .1rem;
+    left: .12rem;
+    z-index: 5;
+}
+
+.logo-iqiyi {
+    display: inline-block;
+    width: .73rem;
+    height: .24rem;
+    background: url(//www.qiyipic.com/common/fix/h5-aura/iqiyi-logo.png) no-repeat 0 0;
+    background-size: .73rem .24rem;
+
+}
+
+.m-user {
+    height: 100%;
+    display: -moz-box;
+    display: -webkit-box;
+    -moz-box-pack: end;
+    -webkit-box-pack: end;
+    box-pack: end;
+}
+
+.m-user .header-search, .m-user .header-recorder {
+    width: .4rem;
+    height: .44rem;
+}
+
+.m-header .header-login {
+    height: .44rem;
+}
+
+.header-login .link-login {
+    display: inline-block;
+    color: #b0b0b0;
+    padding: 0 .12rem;
+    line-height: .44rem;
+    font-size: .13rem;
+}
+
+.header-search {
+    background-color: red;
+}
+
+
+.header-recorder {
+    background-color: green;
+}
+
+.m-header .header-app {
+    height: .44rem;
+    padding-top: .12rem;
+    padding-right: .12rem;
+    padding-left: .07rem;
+}
+
+.m-header .header-app .link-app {
+    display: inline-block;
+    height: .2rem;
+    line-height: .19rem;
+    width: .59rem;
+    border: 1px solid #0bbe06;
+    border-radius: .2rem;
+    text-align: center;
+    box-sizing: border-box;
+    color: #0bbe06;
+    font-size: .11rem;
+}
+
+
+.c-glyphicon {
+    /*position: relative;*/
+    /*display: inline-block;*/
+    /*font-size: .14rem;*/
+    /*font-family: "iconfont";*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*line-height: 1;*/
+    /*color: #8fdd90;*/
+}
+
