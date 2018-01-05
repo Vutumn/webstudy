@@ -3,11 +3,32 @@ html {
 }
 
 a {
+    color: #333;
     text-decoration: none;
+}
+
+em {
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     display: block;
+}
+
+body {
+    overflow: auto;
+    height: 100%;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
 }
 
 body {
@@ -16,6 +37,7 @@ body {
     font-size: .14rem;
     line-height: 1;
     color: #333;
+    margin: 0;
 }
 
 .header-group-innder {
@@ -109,3 +131,208 @@ body {
     /*color: #8fdd90;*/
 }
 
+.g-nav-header {
+    rgba(246,246,246,0.96)
+}
+
+.g-nav-header {
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    height: .4rem;
+    box-sizing: border-box;
+    background: #fafafa;
+}
+
+.g-nav-header:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #e6e6e6;
+}
+
+.m-sliding {
+    position: relative;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.m-sliding .m-sliding-list {
+    float: left;
+    white-space: nowrap;
+
+}
+
+.m-sliding-list li {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    letter-spacing: 0;
+}
+
+.m-sliding-list .c-linkChannel{
+    display: block;
+    text-align: center;
+    padding: 0 .12rem;
+    line-height: .4rem;
+    font-size: .17rem;
+    color: #333;
+}
+
+.m-nav-head {
+    overflow: auto;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+}
+
+.c-menu-linkmore {
+    position: relative;
+    display: inline-block;
+    width: .4rem;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+}
+
+.menu-more-icon {
+    display: block;
+    width: .4rem;
+    height: .4rem;
+    background: url(//www.qiyipic.com/common/fix/h5-aura/menu-more-icon.png) no-repeat 0 0;
+    background-size: .8rem .4rem;
+}
+
+.m-search-wrap {
+    height: .42rem;
+}
+
+.m-search {
+    height: 100%;
+    padding: .065rem .12rem;
+    box-sizing: border-box;
+    background: rgba(246,246,246,0.96);
+}
+
+.search-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: .5rem;
+    border: 1px solid #20bc22;
+    background: #fff;
+    font-size: .13rem;
+}
+
+.search-text {
+    display: block;
+    margin-right: .54rem;
+    box-sizing: border-box;
+}
+
+.search-placeholder {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: .28rem;
+}
+
+.input-link {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: .54rem;
+    height: .28rem;
+    background-color: #29c82a;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.m-carousel {
+    position: relative;
+    padding-top: .09rem;
+}
+
+.carousel-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 46%;
+}
+
+.list-carousel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    letter-spacing: -0.04rem;
+    white-space: nowrap;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.m-carousel .list-carousel li a:before {
+    content: "";
+    padding-top: 50%;
+    display: block;
+}
+
+.m-carousel .list-carousel li a {
+    display: block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: .05rem;
+}
+
+.m-sliding .m-sliding-list {
+   display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.m-business-list .linkImgIcon {
+    display: block;
+    text-align: center;
+    margin: 0 5%;
+    width: 90%;
+    padding-top: .15rem;
+    padding-bottom: .08rem;
+    font-size: .12rem;
+}
+
+.m-business-list li {
+    display: inline-block;
+    vertical-align: top;
+    letter-spacing: 0;
+    width: 21.2vw;
+}
+
+
+.c-icon {
+    display: inline-block;
+    height: 0;
+    width: 61.5%;
+    padding-top: 61.5%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.c-title {
+    display: block;
+    overflow: hidden;
+    line-height: .24rem;
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
