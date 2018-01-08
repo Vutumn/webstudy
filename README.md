@@ -5,6 +5,9 @@
 编辑器的选择：webstorm（目前正在使用），vscode（即将尝试，插件开源化，全靠插件，通过插件能编写任何语言）。<br>系统性的学习：先学规范，css规范，文件命名，网易nec，张鑫旭博客，还有各种百度，仿写qq音乐。
 在开始系统性的学习，买了两本书一本css secret还有一本精通css，css secret不推荐初学者购买，需要一定的基础，精通css推荐购买。js买了两本，犀牛书和红宝书，太厚了，长路慢慢。
 
+看到个好的网站，关于介绍初学者如何入门的，写得很好。写了这么多天，感觉css这块最重要的还是布局这块。
+http://www.cnblogs.com/dolphinX/p/5181660.html
+
 ### 12-19
 更新精通css书上的内容和例子，这本书大致讲了些入门需要知道的知识点，感觉虽然全面但是粗略，需要初学者更加深入的去了解。
 
@@ -54,7 +57,21 @@ webkit-box，主要是用来实现流布局的，类似于ios中的autolayout，
 而不需要计算间距啥的
 
 ### 1-5
-相关问题:爱奇艺menu如何进行滑动，设置为white-space no-wrap和over flow的区别，另外关于border-box的深度用法，用paddinig百分比的意义
+相关问题:爱奇艺menu如何进行滑动，设置为white-space no-wrap和over-flow的区别，另外关于border-box的深度用法，用paddinig百分比的意义
 
-看到个好的网站，关于介绍初学者如何入门的，写得很好。写了这么多天，感觉css这块最重要的还是布局这块。
-http://www.cnblogs.com/dolphinX/p/5181660.html
+### 1-8
+关于borde-box的历史，好处等介绍
+https://www.w3cplus.com/content/css3-box-sizing
+
+利用white-space实现元素不换行和overflow实现不换行滑动
+ul float:left一般和white-space no-wrap结合起来使用实现元素li同一行排列不换行的效果，overflow-hidden实现同一屏幕的效果。
+
+一、<h1>用来修饰网页的主标题，一般是网页的标题
+
+，文章标题，<h1>中部署主关键词。<h1>尽量靠近在html 中的<body>标签，越近越好，以便让搜索引擎最快的领略主题。
+
+二、<h2>表示一个段落的标题，或者说副标题，部署长尾关键词
+
+三、<h3>表示段落的小节标题，<h3>效果跟Strong差不多，一般是用在段落小节
+
+四、<h4>-<h6>基本很少用到，是告诉搜索引擎这些不是很重要的内容，单一篇文章内容较多的时候，可以用来说明一些内容是不很重要的。
