@@ -1,0 +1,204 @@
+body, ul, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #9f9fa1;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+input {
+    border: 1px solid #333;
+}
+
+.header ,.footer {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.header_title {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.header_title a {
+    display: block;
+    position: relative;
+    margin-left: 20px;
+    width:  100px;
+    height: 50px;
+    line-height: 50px;
+    background-color: red;
+}
+
+
+
+.header_nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+.header_nav ul {
+    display: flex;
+    position: relative;
+
+}
+
+.header_nav li {
+    position: relative;
+}
+
+.header_nav_link {
+    display: block;
+    color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+    padding-right: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.header_nav_link--current {
+    color: #9f9fa1;
+}
+
+.tc {
+    text-align: center;
+}
+
+.content {
+
+}
+
+.content .content_box {
+    margin: 20px 20px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #333;
+
+}
+
+.content .content_aside {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #333;
+}
+
+.content .content_first {
+
+}
+
+.content .content_main {
+    text-indent: 25px;
+    color: #333;
+    font-weight: 500;
+}
+
+.content_box li {
+    list-style: none;
+}
+
+.content_box .content_list {
+    margin-left: 40px;
+}
+
+.content_box .content_list_items {
+    display: block;
+    position: relative;
+    height: 130px;
+    width: 120px;
+    margin-top: 20px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    display: block;
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translateY(-50%);*/
+    line-height: 50px;
+    color: #ffffff;
+    /*text-align: center;*/
+}
+
+.content_aside_email, .content_aside_password, .content_aside_passwordcopy {
+    display: block;
+    position: relative;
+}
+
+.email_title, .passwordcopy_title, .password_title {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    text-align: right;
+}
+
+.email_input, .password_input, .passwordcopy_input{
+    position: relative;
+    margin-left: 20px;
+}
+
+.email_tips, .password_tips{
+    display: block;
+    position: relative;
+    margin-left: 425px;
+    margin-top: 20px;
+    color: #d4dde6;
+}
+
+.password_title, .passwordcopy_title {
+    margin-top: 20px;
+}
+
+.mod_queding {
+    display: block;
+    position: relative;
+    margin: 40px;
+    height: 40px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #009a61;
+    color: #ffffff;
+}
+
+.ml20 {
+    !important;margin-left: 20px;
+}
+
+.mt20 {
+    !important;margin-top: 20px;
+}
+
+.mb20 {
+    !important;margin-bottom: 20px;
+}
+
+.ml100 {
+    !important;margin-left: 100px;
+}
