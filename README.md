@@ -90,3 +90,8 @@ https://github.com/ecomfe这个是百度前端的规范，可以参考下
 
 ### 1-10
 关于task02踩坑的点我写在简书了。
+https://www.jianshu.com/p/c6646db27d1e
+
+### 1-11
+task03
+https://www.jianshu.com/p/a2777bae4862
