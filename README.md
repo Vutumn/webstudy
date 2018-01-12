@@ -95,3 +95,17 @@ https://www.jianshu.com/p/c6646db27d1e
 ### 1-11
 task03
 https://www.jianshu.com/p/a2777bae4862
+
+### 1-12
+task04，关于居中的问题，可以看这个网站https://css-tricks.com/centering-css-complete-guide/，先思考在看答案。
+基本各种情况都涉及到了
+以下是task4的感悟，关于垂直居中刚开始用的是absolute加margin位移，发现效果不太好，在浏览器缩小到一定尺寸，div并不是一直垂直居中的，它其实有个固定的margin在那，后来改用transform能实现动态改变的效果，但是两者都其实要设置一个浏览器最低的缩放宽高。
+
+absolute(绝对定位)和fixed(固定定位)。其中static和relative会占据文档流空间，他们并不是脱离文档的。absolute和fixed是脱离文档流的，不会占据文档流空间。
+文档流：将窗体自上而下分成一行行, 并在每行中按从左至右的顺序排放元素,块状元素独占一行，内联元素不独占一行；
+
+CSS中脱离文档流，也就是将元素从普通的布局排版中拿走，其他盒子在定位的时候，会当做脱离文档流的元素不存在而进行定位。需要注意的是，使用float脱离文档流时，其他盒子会无视这个元素，但其他盒子内的文本依然会为这个元素让出位置，环绕在周围。而对于使用absolute positioning脱离文档流的元素，其他盒子与其他盒子内的文本都会无视它。
+
+关于absolute详情看
+http://www.zhangxinxu.com/study/201012/position-absolute-replace-method-2.html
+left top都是相对与跟本身position最相关的元素来确定的，这点可以看我写的例子task04。
