@@ -123,6 +123,7 @@ https://zhuanlan.zhihu.com/p/23240817
 https://www.zhihu.com/question/20532360
 
 4.文字是有高度的，而且这个高度还有空隙，如何让他们自适应。
+关于宽度这点可以用，text-indent首行缩进来做，高度可以用line-height来做。
 
 5.利用inline-block布局的时候，没有对齐。
 
@@ -135,3 +136,8 @@ http://www.zhangxinxu.com/wordpress/2010/05/%E6%88%91%E5%AF%B9css-vertical-align
 一个inline-block元素，如果里面没有inline内联元素，或者overflow不是visible，则该元素的基线就是其margin底边缘，否则，其基线就是元素里面最后一行内联元素的基线。
 基线位置和文字底部距离有关，和line-height无关。
 
+### 1-16
+button和input button的区别。
+http://blog.csdn.net/lee_sire/article/details/50312301
+
+关于这个div的设计，碰到一个问题就是如果有内容标题这种格式的，如何设计div，我一般就p，h3，或者特殊点的加个div，但是p和h3外面是否要套一个div，这点得参考大佬的写法，感觉这样直接写不好。
