@@ -328,6 +328,7 @@ a {
     display: block;
     width: 100%;
     height: 560px;
+    background-color: rgb(237, 237, 237);
 }
 
 .activity-des .left {
@@ -335,6 +336,7 @@ a {
     display: block;
     width: 850px;
     height: 100%;
+    text-align: center;
 }
 
 .activity-des .right {
@@ -343,6 +345,8 @@ a {
     width: 430px;
     height: 100%;
 }
+
+
 
 .mr20 {
     margin-right: 20px;
